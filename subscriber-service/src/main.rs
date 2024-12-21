@@ -1,17 +1,16 @@
-use futures_util::stream::StreamExt;
+use futures_util::StreamExt;
 use redis::Client;
 
 #[tokio::main]
 async fn main() -> redis::RedisResult<()> {
-    // Create a Redis client
+    println!("Launching Redis subscriber...");
     let client = Client::open("redis://redis:6379")?;
-    let pubsub = client.get_async_pubsub().await.unwrap();
+    let mut pubsub = client.get_async_pubsub().await?;
+    pubsub.subscribe("my-event").await?;
 
-    let mut stream = pubsub.into_on_message();
-
-    while let Some(msg) = stream.next().await {
-        // Process the message
-        println!("Received message: {:?}", msg);
+    while let Some(msg) = pubsub.on_message().next().await {
+        let payload: String = msg.get_payload()?;
+        println!("Received message: {}", payload);
     }
 
     Ok(())

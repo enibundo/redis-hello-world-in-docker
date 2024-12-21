@@ -32,6 +32,7 @@ async fn publish_message(
 ) -> Result<impl IntoResponse, StatusCode> {
     let client =
         redis::Client::open("redis://redis:6379").map_err(|_| StatusCode::INTERNAL_SERVER_ERROR)?;
+
     let mut conn = client
         .get_multiplexed_async_connection()
         .await
