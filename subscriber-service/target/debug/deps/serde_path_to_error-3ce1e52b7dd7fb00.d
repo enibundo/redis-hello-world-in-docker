@@ -1,9 +1,0 @@
-/Users/enibundo/code/hello-world/subscriber-service/target/debug/deps/libserde_path_to_error-3ce1e52b7dd7fb00.rmeta: /Users/enibundo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_path_to_error-0.1.16/src/lib.rs /Users/enibundo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_path_to_error-0.1.16/src/de.rs /Users/enibundo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_path_to_error-0.1.16/src/path.rs /Users/enibundo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_path_to_error-0.1.16/src/ser.rs /Users/enibundo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_path_to_error-0.1.16/src/wrap.rs
-
-/Users/enibundo/code/hello-world/subscriber-service/target/debug/deps/serde_path_to_error-3ce1e52b7dd7fb00.d: /Users/enibundo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_path_to_error-0.1.16/src/lib.rs /Users/enibundo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_path_to_error-0.1.16/src/de.rs /Users/enibundo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_path_to_error-0.1.16/src/path.rs /Users/enibundo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_path_to_error-0.1.16/src/ser.rs /Users/enibundo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_path_to_error-0.1.16/src/wrap.rs
-
-/Users/enibundo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_path_to_error-0.1.16/src/lib.rs:
-/Users/enibundo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_path_to_error-0.1.16/src/de.rs:
-/Users/enibundo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_path_to_error-0.1.16/src/path.rs:
-/Users/enibundo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_path_to_error-0.1.16/src/ser.rs:
-/Users/enibundo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_path_to_error-0.1.16/src/wrap.rs:
